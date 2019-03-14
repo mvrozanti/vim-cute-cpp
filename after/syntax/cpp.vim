@@ -26,11 +26,11 @@ syntax match cppOperator "<<"              conceal cchar=«
 
 syntax keyword cppOperator NULL            conceal cchar=ϰ
 syntax keyword cppOperator nullptr         conceal cchar=ϰ
-syntax keyword cppOperator void            conceal cchar=ϰ
+syntax keyword cppOperator void            conceal cchar=∅
 
 syntax keyword cppOperator bool            conceal cchar=𝔹
 syntax keyword cppOperator int             conceal cchar=ℤ
-syntax keyword cppOperator float           conceal cchar=ℜ
+syntax keyword cppOperator float           conceal cchar=ℝ
 
 syntax match cppOperator "\<length\>"      conceal cchar=ₗ
 " syntax match cppOperator "\<size\>" conceal cchar=ₛ
