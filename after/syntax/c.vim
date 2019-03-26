@@ -21,9 +21,11 @@ syntax match cOperator "++"              conceal cchar=⧺
 syntax match cOperator "\<pi\>"          conceal cchar=π
 syntax match cOperator "\<sqrt\>"        conceal cchar=√ 
 
+
 syntax match cOperator ">>"              conceal cchar=»
 syntax match cOperator "<<"              conceal cchar=«
-
+syntax keyword cOperator malloc          conceal cchar=✣
+syntax keyword cOperator calloc          conceal cchar=✽
 syntax keyword cOperator break           conceal cchar=¦
 syntax keyword cOperator while           conceal cchar=♭
 syntax keyword cOperator NULL            conceal cchar=ϰ
