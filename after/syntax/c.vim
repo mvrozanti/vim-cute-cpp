@@ -37,6 +37,7 @@ syntax keyword cOperator for             conceal cchar=߶
 syntax keyword cOperator if              conceal cchar=ፑ
 syntax keyword cOperator else            conceal cchar=ፓ
 syntax keyword cOperator double          conceal cchar=δ
+syntax keyword cOperator free            conceal cchar=ϕ
 syntax keyword cOperator const           conceal cchar=χ
 syntax keyword cOperator printf          conceal cchar=云
 

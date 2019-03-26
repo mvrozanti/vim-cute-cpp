@@ -40,6 +40,7 @@ syntax keyword cppOperator for             conceal cchar=߶
 syntax keyword cppOperator if              conceal cchar=ፑ
 syntax keyword cppOperator else            conceal cchar=ፓ
 syntax keyword cppOperator double          conceal cchar=δ
+syntax keyword cppOperator free            conceal cchar=ϕ
 syntax keyword cppOperator const           conceal cchar=χ
 syntax keyword cppOperator printf          conceal cchar=云
 
