@@ -30,7 +30,14 @@ syntax keyword cppOperator void            conceal cchar=∅
 
 syntax keyword cppOperator bool            conceal cchar=𝔹
 syntax keyword cppOperator int             conceal cchar=ℤ
+syntax keyword cppOperator __m512d         conceal cchar=к
+syntax keyword cppOperator __m256d         conceal cchar=Д
+syntax keyword cppOperator __m128d         conceal cchar=н
 syntax keyword cppOperator float           conceal cchar=ℝ
+syntax keyword pyNiceStatement if        conceal cchar=ፑ
+syntax keyword pyNiceStatement else      conceal cchar=ፓ
+syntax keyword cppOperator double          conceal cchar=δ
+syntax keyword cppOperator const           conceal cchar=χ
 
 syntax match cppOperator "\<length\>"      conceal cchar=ₗ
 " syntax match cppOperator "\<size\>" conceal cchar=ₛ
