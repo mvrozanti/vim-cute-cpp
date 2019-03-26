@@ -24,6 +24,7 @@ syntax match cOperator "\<sqrt\>"        conceal cchar=√
 syntax match cOperator ">>"              conceal cchar=»
 syntax match cOperator "<<"              conceal cchar=«
 
+syntax keyword cOperator while           conceal cchar=♭
 syntax keyword cOperator NULL            conceal cchar=ϰ
 syntax keyword cOperator nullptr         conceal cchar=ϰ
 syntax keyword cOperator void            conceal cchar=∅
@@ -31,7 +32,7 @@ syntax keyword cOperator void            conceal cchar=∅
 syntax keyword cOperator bool            conceal cchar=𝔹
 syntax keyword cOperator int             conceal cchar=ℤ
 syntax keyword cOperator float           conceal cchar=ℝ
-syntax keyword cOperator for            conceal cchar=߶
+syntax keyword cOperator for             conceal cchar=߶
 syntax keyword cOperator if              conceal cchar=ፑ
 syntax keyword cOperator else            conceal cchar=ፓ
 syntax keyword cOperator double          conceal cchar=δ
