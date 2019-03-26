@@ -34,8 +34,9 @@ syntax keyword cppOperator __m512d         conceal cchar=к
 syntax keyword cppOperator __m256d         conceal cchar=Д
 syntax keyword cppOperator __m128d         conceal cchar=н
 syntax keyword cppOperator float           conceal cchar=ℝ
-syntax keyword pyNiceStatement if        conceal cchar=ፑ
-syntax keyword pyNiceStatement else      conceal cchar=ፓ
+syntax keyword cppOperator for             conceal cchar=߶
+syntax keyword cppOperator if              conceal cchar=ፑ
+syntax keyword cppOperator else            conceal cchar=ፓ
 syntax keyword cppOperator double          conceal cchar=δ
 syntax keyword cppOperator const           conceal cchar=χ
 
