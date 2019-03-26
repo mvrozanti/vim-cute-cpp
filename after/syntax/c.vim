@@ -40,10 +40,10 @@ syntax keyword cOperator double          conceal cchar=δ
 syntax keyword cOperator free            conceal cchar=ϕ
 syntax keyword cOperator const           conceal cchar=χ
 syntax keyword cOperator printf          conceal cchar=云
+syntax keyword cOperator char            conceal cchar=α
 
 syntax match cOperator "\<length\>"      conceal cchar=ₗ
 " syntax match cOperator "\<size\>" conceal cchar=ₛ
-
 syntax match cOperator "\<array\>"       conceal cchar=𝒜
 syntax match cOperator "\<list\>"        conceal cchar=ℒ
 
