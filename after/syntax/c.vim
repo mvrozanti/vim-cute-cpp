@@ -16,7 +16,8 @@ syntax match cOperator "\<not\>"         conceal cchar=¬
 syntax match cOperator "->"              conceal cchar=→
 syntax match cOperator "||"              conceal cchar=∥
 syntax match cOperator "::"              conceal cchar=∷
-" syntax match cOperator "++"              conceal cchar=⧺
+syntax match cOperator "++"              conceal cchar=⧺
+syntax match cOperator "break"           conceal cchar=¦
 
 syntax match cOperator "\<pi\>"          conceal cchar=π
 syntax match cOperator "\<sqrt\>"        conceal cchar=√ 

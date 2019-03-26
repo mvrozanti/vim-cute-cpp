@@ -17,6 +17,7 @@ syntax match cppOperator "->"              conceal cchar=→
 syntax match cppOperator "||"              conceal cchar=∥
 syntax match cppOperator "::"              conceal cchar=∷
 syntax match cppOperator "++"              conceal cchar=⧺
+syntax match cppOperator "break"           conceal cchar=¦
 
 syntax match cppOperator "\<pi\>"          conceal cchar=π
 syntax match cppOperator "\<sqrt\>"        conceal cchar=√ 
