@@ -41,6 +41,7 @@ syntax keyword cppOperator if              conceal cchar=ፑ
 syntax keyword cppOperator else            conceal cchar=ፓ
 syntax keyword cppOperator double          conceal cchar=δ
 syntax keyword cppOperator const           conceal cchar=χ
+syntax keyword cppOperator printf          conceal cchar=云
 
 syntax match cppOperator "\<length\>"      conceal cchar=ₗ
 " syntax match cppOperator "\<size\>" conceal cchar=ₛ

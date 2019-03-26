@@ -38,6 +38,7 @@ syntax keyword cOperator if              conceal cchar=ፑ
 syntax keyword cOperator else            conceal cchar=ፓ
 syntax keyword cOperator double          conceal cchar=δ
 syntax keyword cOperator const           conceal cchar=χ
+syntax keyword cOperator printf          conceal cchar=云
 
 syntax match cOperator "\<length\>"      conceal cchar=ₗ
 " syntax match cOperator "\<size\>" conceal cchar=ₛ
