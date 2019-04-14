@@ -1,3 +1,4 @@
+
 if !has('conceal')
     finish
 endif
@@ -44,6 +45,8 @@ syntax keyword cOperator free            conceal cchar=ϕ
 syntax keyword cOperator const           conceal cchar=χ
 " syntax keyword cOperator printf          conceal cchar=云
 syntax keyword cOperator char            conceal cchar=α
+syntax keyword cOperator static          conceal cchar=䡖
+
 
 syntax match cOperator "\<length\>"      conceal cchar=ₗ
 " syntax match cOperator "\<size\>" conceal cchar=ₛ

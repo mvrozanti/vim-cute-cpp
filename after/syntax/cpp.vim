@@ -43,6 +43,7 @@ syntax keyword cppOperator double          conceal cchar=δ
 syntax keyword cppOperator free            conceal cchar=ϕ
 syntax keyword cppOperator const           conceal cchar=χ
 " syntax keyword cppOperator printf          conceal cchar=云
+syntax keyword cppOperator static          conceal cchar=䡖
 syntax keyword cppOperator malloc          conceal cchar=✣
 syntax keyword cppOperator calloc          conceal cchar=✽
 syntax keyword cppOperator memset          conceal cchar=🞯
