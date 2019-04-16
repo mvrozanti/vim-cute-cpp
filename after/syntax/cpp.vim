@@ -26,7 +26,7 @@ syntax match cppOperator ">>"              conceal cchar=»
 syntax match cppOperator "<<"              conceal cchar=«
 
 syntax keyword cppOperator NULL            conceal cchar=ϰ
-syntax keyword cppOperator while           conceal cchar=♭
+syntax keyword cppOperator while           conceal cchar=♪
 syntax keyword cppOperator nullptr         conceal cchar=ϰ
 syntax keyword cppOperator void            conceal cchar=∅
 
