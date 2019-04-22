@@ -11,11 +11,13 @@ syntax match cOperator ">="              conceal cchar=≥
 syntax match cOperator "=\@<!===\@!"     conceal cchar=≡
 syntax match cOperator "!="              conceal cchar=≢
 
-syntax match cOperator "\<or\>"          conceal cchar=∨
-syntax match cOperator "\<and\>"         conceal cchar=∧
-syntax match cOperator "\<not\>"         conceal cchar=¬
+" syntax match cOperator "\<or\>"          conceal cchar=∨
+" syntax match cOperator "\<and\>"         conceal cchar=∧
+" syntax match cOperator "\<not\>"         conceal cchar=¬
 syntax match cOperator "->"              conceal cchar=→
-syntax match cOperator "||"              conceal cchar=∥
+syntax match cOperator "!"               conceal cchar=¬
+syntax match cOperator "&&"              conceal cchar=∧
+syntax match cOperator "||"              conceal cchar=∨
 syntax match cOperator "::"              conceal cchar=∷
 syntax match cOperator "++"              conceal cchar=⧺
 

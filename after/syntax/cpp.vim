@@ -10,11 +10,13 @@ syntax match cppOperator ">="              conceal cchar=≥
 syntax match cppOperator "=\@<!===\@!"     conceal cchar=≡
 syntax match cppOperator "!="              conceal cchar=≢
 
-syntax match cppOperator "\<or\>"          conceal cchar=∨
-syntax match cppOperator "\<and\>"         conceal cchar=∧
-syntax match cppOperator "\<not\>"         conceal cchar=¬
+" syntax match cppOperator "\<or\>"          conceal cchar=∨
+" syntax match cppOperator "\<and\>"         conceal cchar=∧
+" syntax match cppOperator "\<not\>"         conceal cchar=¬
 syntax match cppOperator "->"              conceal cchar=→
-syntax match cppOperator "||"              conceal cchar=∥
+syntax match cppOperator "!"               conceal cchar=¬
+syntax match cppOperator "&&"              conceal cchar=∧
+syntax match cppOperator "||"              conceal cchar=∨
 syntax match cppOperator "::"              conceal cchar=∷
 syntax match cppOperator "++"              conceal cchar=⧺
 syntax match cppOperator "break"           conceal cchar=¦
